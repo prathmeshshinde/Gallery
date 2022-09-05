@@ -1,0 +1,36 @@
+/* font-family: 'Cormorant Upright', serif;
+font-family: 'Inter', sans-serif; */
+
+body {
+  background-color: #111315;
+}
+
+i.flag-it:before,
+i.flag-italy:before {
+  background-position: -36px -832px !important;
+}
+i.flag:before {
+  content: "";
+  background: url(https://mdbootstrap.com/img/svg/flags.png) no-repeat -108px -1976px;
+}
+i.flag:before,
+i.flag:not(.icon) {
+  display: inline-block;
+  width: 16px;
+  height: 11px;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+i.flag-china:before,
+i.flag-cn:before {
+  background-position: 0 -1196px !important;
+}
+
+i.flag-ar:before,
+i.flag-argentina:before {
+  background-position: 0 -234px !important;
+}
