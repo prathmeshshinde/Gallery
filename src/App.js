@@ -15,7 +15,7 @@ function App() {
             <Header />
             <Menu />
             <Routes>
-              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/" element={<Gallery />} />
               <Route path="/arch" element={<Arch />} />
               <Route path="/other" element={<Others />} />
             </Routes>

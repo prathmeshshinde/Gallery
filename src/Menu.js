@@ -28,7 +28,7 @@ const Menu = () => {
     <div>
       <div className="flex justify-between items-center my-10">
         <div className="text-[#6F7378] flex overflow-auto whitespace-nowrap md:w-3/4 w11/12">
-          <Link to="/gallery">
+          <Link to="/">
             {click ? (
               <p className="p-3 text-white" onClick={handleClick}>
                 All photos <hr className="mt-1" />
